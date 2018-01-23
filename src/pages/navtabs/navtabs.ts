@@ -26,7 +26,7 @@ export class NavtabsPage {
   moreRoot = 'MorePage';
 
   icon: string = './assets/icon/reward.svg';
-  color: string = '#EB3841';
+  color: string = '#6F4E37';
   constructor(
     public navCtrl: NavController,
     private platform: Platform,
@@ -71,23 +71,23 @@ export class NavtabsPage {
   onSelectChange(e) {
     if (e === '0') {
       window.localStorage.setItem('current_page_for_login', 'HomePage');
-      this.color = '#EB3841';
+      this.color = '#6F4E37';
       let user = JSON.parse(window.localStorage.getItem('user@' + Constants.URL));
       if (user) {
         this.auth.getDailyWelcome();
       }
     } else if (e === '1') {
       window.localStorage.setItem('current_page_for_login', 'RecommentedPage');
-      this.color = '#EB3841';
+      this.color = '#6F4E37';
     } else if (e === '2') {
       window.localStorage.setItem('current_page_for_login', 'RewardPage');
-      this.color = '#b3222f';
+      this.color = '#6F4E37';
     } else if (e === '3') {
       window.localStorage.setItem('current_page_for_login', 'StatusPage');
-      this.color = '#EB3841';
+      this.color = '#6F4E37';
     } else if (e === '4') {
       window.localStorage.setItem('current_page_for_login', 'MorePage');
-      this.color = '#EB3841';
+      this.color = '#6F4E37';
     }
     // let user = JSON.parse(window.localStorage.getItem('user@' + Constants.URL));
     // if (user) {
