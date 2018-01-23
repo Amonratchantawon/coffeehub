@@ -1,0 +1,23 @@
+page-gift-collect-random {
+    .scroll-content {
+        overflow: auto;
+    }
+    .row-gift-image {
+        padding-top: 30px !important;
+        height: 100%;
+        justify-content: center !important;
+        align-items: center !important;
+        align-items: center !important;
+    }
+    .gift-image {
+        margin-top: -30px !important;
+        height: 100%;
+        width: 100%;
+    }
+    .footer-gift {
+        .toolbar {
+            min-height: 40px !important;
+            max-height: 40px !important;
+        }
+    }
+}

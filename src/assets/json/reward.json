@@ -1,0 +1,60 @@
+{
+    "coin": {
+        "coinnumber": 150,
+        "image": "./assets/imgs/game_pont/pont_coin.png"
+    },
+    "conquest": {
+        "name": "เส้นทางพิชิต coin",
+        "image": "./assets/imgs/game_pont/coin_game.png"
+    },
+    "MakeMerit": {
+        "title": "บริจาค",
+        "items": [
+            {
+                "image":"https://www.unhcr.or.th/sites/default/files/imagecache/donate_slide/feature-01-TH.jpg"
+            },
+            {
+                "image":"https://www.unhcr.or.th/sites/default/files/imagecache/donate_slide/2017_BangladeshEmergency_LandingPage_Feature_TH_0.jpg"
+            },
+            {
+                "image":"https://www.unhcr.or.th/sites/default/files/imagecache/donate_slide/landing%20page_170731_0001_RZ.jpg"
+            },
+            {
+                "image":"https://www.unhcr.or.th/sites/default/files/imagecache/donate_slide/Untitled-1-01-01.jpg"
+            }
+        ]
+    },
+    "sendCoin":{
+        "title":"ส่งเหรียญให้เพื่อน",
+        "items":[
+            {
+                "name":"Facebook",
+                "image":"https://stocknews.com/wp-content/uploads/2017/07/facebook-fb-alternate.jpg"
+            },
+            {
+                "name":"Email",
+                "image":"http://cdn2.expertreviews.co.uk/sites/expertreviews/files/2016/04/outlook_email.jpg?itok%5Cx3dv9sA_FHs"
+            }
+        ]
+    },
+    "rewards": {
+        "title": "ของรางวัล",
+        "items": [
+            {
+                "image": "./assets/imgs/coin_photo_pro/coin_pro_1.png"
+            },
+            {
+                "image": "./assets/imgs/coin_photo_pro/coin_pro_2.png"
+            },
+            {
+                "image": "./assets/imgs/coin_photo_pro/coin_pro_3.png"
+            },
+            {
+                "image": "./assets/imgs/coin_photo_pro/coin_pro_4.png"
+            },
+            {
+                "image": "./assets/imgs/coin_photo_pro/coin_pro_5.png"
+            }
+        ]
+    }
+}

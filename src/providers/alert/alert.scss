@@ -1,0 +1,13 @@
+.alert-message {
+    img {
+        width: 50% !important;
+    }
+}
+
+.alert-ios .alert-message {
+    max-height: 90%;
+    overflow-y: auto !important;
+}
+.cancel{
+    color: #eb3841 !important;
+}
